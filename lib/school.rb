@@ -4,8 +4,11 @@ class School
   
   def initialize(name)
     @name = name
-    ROSTER << name
   end 
+  
+  def add_student(name, grade)
+    
+  end
 
 end
 
