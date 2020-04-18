@@ -23,8 +23,8 @@ class School
   def sort
     @roster.each do |grade, student|
       if @roster[grade][student].sort != @roster[grade][student]
-        @roster[grade][student] = @roster[grade][student].sort
         binding.pry
+        @roster[grade][student] = @roster[grade][student].sort
       end
     end
   end
