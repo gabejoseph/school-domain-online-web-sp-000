@@ -1,11 +1,15 @@
 class School  
   
+  ROSTER =[]
+  
   def initialize(name)
-    @School = school 
+    @school = school
   end
   
   def roster 
-    ROSTER << roster
+    if ROSTER.include?(roster)
+      ROSTER << roster
+    end
   end 
   
   def add_student
