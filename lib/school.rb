@@ -11,7 +11,7 @@ class School
   end 
   
   def add_student
-    if ROSTER.include?(roster)
+    if !ROSTER.include?(roster)
       ROSTER << roster
     end
   end
