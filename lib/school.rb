@@ -22,8 +22,8 @@ class School
   
   def sort
     @roster.each do |grade, student|
+      binding.pry
       if @roster[grade][student].sort != @roster[grade][student]
-        binding.pry
         @roster[grade][student] = @roster[grade][student].sort
       end
     end
