@@ -6,15 +6,9 @@ class School
     @name = name
   end
   
-  def roster 
-    ROSTER
-  end 
-  
   def add_student
-    if !ROSTER.include?(roster)
-      ROSTER << roster
-    end
-    ROSTER
+    # if !ROSTER.include?(roster)
+    ROSTER << name
   end
   
 end
