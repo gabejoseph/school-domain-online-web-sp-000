@@ -16,7 +16,7 @@ class School
     @roster[grade] << name
   end  
   
-  def grade(name)
+  def grade(grade)
     binding.pry
     @roster[grade][name]
   end 
