@@ -14,6 +14,7 @@ class School
     if !ROSTER.include?(roster)
       ROSTER << roster
     end
+    ROSTER
   end
   
 end
