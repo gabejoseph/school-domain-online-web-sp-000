@@ -13,7 +13,7 @@ class School
     if !@roster[grade] 
       @roster[grade] = []
     end
-    grade << name
+    @roster[grade] << name
   end  
 
 end
