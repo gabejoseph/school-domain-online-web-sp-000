@@ -22,8 +22,8 @@ class School
   
   def sort
     @roster.each do |grade, student|
-      if @roster[grade].sort != @roster[grade][name]
-        @roster[grade][name] = @roster[grade].sort
+      if @roster[grade].sort != @roster[grade][student]
+        @roster[grade][student] = @roster[grade].sort
       end
     end
   end
