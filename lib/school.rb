@@ -2,17 +2,15 @@ require 'pry'
 
 class School  
   
-  ROSTER = {}
-  
-  attr_accessor :roster
+  attr_accessor :roster, :name
   
   def initialize(name)
-    @roster = name
+    @name = name
+    @roster = {}
   end 
   
   def add_student(student, grade)
     ROSTER << grade
-    binding.pry
     if !ROSTER[grade].include?(name)
       ROSTER[grade] << name
     end
