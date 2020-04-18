@@ -22,6 +22,7 @@ class School
   
   def sort
   binding.pry
+    return 
   end
 
 end
