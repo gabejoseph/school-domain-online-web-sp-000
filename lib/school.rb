@@ -2,7 +2,9 @@ require 'pry'
 
 class School  
   
-  ROSTER = []
+  ROSTER = 
+  
+  attr_accessor :roster
   
   def initialize(name)
     @roster = name
